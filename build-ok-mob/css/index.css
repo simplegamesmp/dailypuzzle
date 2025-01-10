@@ -36,7 +36,7 @@ html, body {
 	position:fixed;
 	top:0px;
 	left:0px;
-	background-color:black;
+	background-color: rgb(255 255 255 / 30%);
 	background-image:url(../assets/img/tap.png);
 	background-repeat:no-repeat;
     
@@ -47,4 +47,6 @@ html, body {
 	background-position: center center;
     background-size:contain;
 	display:none;
+
+	backdrop-filter: blur(10px);
 }
